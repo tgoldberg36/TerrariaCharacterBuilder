@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Terraria Character Builder</title>
+        <meta charset="UTF-8" />
+	    <link rel="stylesheet" href="terraria.css"/>
+        <script src="terraria.js" type="text/javascript"></script>
+        <link href="//db.onlinewebfonts.com/c/775c3814e9c1f228d495333e07580d59?family=Andy" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <span class="title">
+                <img src="Images/terrariaLogo.png" alt="terrariaLogo">
+                <div>Character Builder</div>
+            </span>
+
+            <div class="character">
+                Drag and Drop to build armor set
+                <p>helm</p>
+                <div class="armorEquiped" id="helmet" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+                <p>chest</p>
+                <div class="armorEquiped" id="chest" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+                <p>legs</p>
+                <div class="armorEquiped" id="legs" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            
+                <p>Armor Value: </p>
+                <div class="armor">
+                    <img src="Images/Wood_Helmet.png" id="woodenHelmet" alt="woodenHelmet" class="icons" draggable="true" ondragstart="drag(event)">
+                    <img src="Images/Wood_Breastplate.png" id="woodenBreastplate" alt="woodenBreastplate" class="icons" draggable="true" ondragstart="drag(event)">
+                    <img src="Images/Wood_Greaves.png" id="woodenGreaves" alt="woodenGreaves" class="icons" draggable="true" ondragstart="drag(event)">
+                    <img src="Images/Rich_Mahogany_Helmet.png" id="mahoganyHelmet" alt="mahoganyHelmet" class="icons" draggable="true" ondragstart="drag(event)">
+                    <img src="Images/Rich_Mahogany_Breastplate.png" id="mahoganyBreastplate" alt="mahoganyplate" class="icons" draggable="true" ondragstart="drag(event)">
+                    <img src="Images/Rich_Mahogany_Greaves.png" id="mahoganyGreaves" alt="mahoganyGreaves" class="icons" draggable="true" ondragstart="drag(event)">
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

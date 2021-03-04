@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('architectsdaughter-regular-webfont.woff2') format('woff2'),
+         url('architectsdaughter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'architects_daughterregular';
+    color: black;
+    background-image: url("Images/Forest_background_1.png");
+}
+
+.container{
+    text-align: center;
+}
+
+.title{
+    font-size: 80px;
+}
+
+.character{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: rgba(240, 248, 255, 0.747);
+    margin: auto;
+    width: 50%;
+    height: 700px;
+    font-size: 24px;;
+}
+
+.armorEquiped{
+    text-align: center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-style: solid ;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.616);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
